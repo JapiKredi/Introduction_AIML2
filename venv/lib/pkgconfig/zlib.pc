@@ -1,0 +1,13 @@
+prefix=/Users/jasper/Desktop/Introduction_AIML/venv
+exec_prefix=/Users/jasper/Desktop/Introduction_AIML/venv
+libdir=/Users/jasper/Desktop/Introduction_AIML/venv/lib
+sharedlibdir=/Users/jasper/Desktop/Introduction_AIML/venv/lib
+includedir=/Users/jasper/Desktop/Introduction_AIML/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
