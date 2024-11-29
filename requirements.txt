@@ -2,7 +2,7 @@ ipykernel
 numpy
 pandas
 matplotlib
-searborn
+seaborn
 flask
 memory_profiler
 streamlit
