@@ -1,3 +1,2 @@
-first line 
-second line 
-third line 
+What can we do today to turnaround into the future? 
+This is a newline 
