@@ -5,3 +5,15 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
 
+@st.cache
+def load_data():
+    iris = load_iris()
+    df = pd.DataFrame(iris.data, columns=iris.feature_names)
+    df['species'] = iris.target
+    return df, iris.target_names
+
+
+df, target_names = load_data()
+
+print(df.head())
+st.write(df.head())
